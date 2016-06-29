@@ -1,0 +1,36 @@
+body{
+	background:#E8F2F0;
+}
+section:before,section:after{
+	display:block;
+	content:"";
+	clear:both;
+}
+#header{
+	padding:15px;
+	background:#003B31;
+	color:whitesmoke;
+	border-bottom:1px #002620;
+}
+#task{
+	background:white;
+	padding:5px;
+	margin-bottom:5px;
+	height:auto;
+	overflow:auto;
+}
+button{
+	border-radius:5px;
+	background:#003B31;
+	color:white;
+}
+h1{
+	margin:0px;
+}
+#addTask{
+	padding:10px;
+}
+#taskList{
+	border-top:1px solid #002620;
+	padding:5px;
+}
