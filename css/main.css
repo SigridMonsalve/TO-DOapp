@@ -1,6 +1,9 @@
 body{
 	background:#E8F2F0;
 }
+h1,h3,button{
+	font-family:'Open Sans Condensed';
+}
 p{
 	word-break:break-all;
 	margin-left:10px;
@@ -94,5 +97,8 @@ h1 span{
 	}
 	p{
 		width:65vw;
+	}
+	textarea:focus{
+		margin-top:20px;
 	}
 }
