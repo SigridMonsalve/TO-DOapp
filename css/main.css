@@ -87,6 +87,7 @@ h1 span{
 @media (max-width:767px){
 	#addTask{
 		height:30vh;
+		padding:30px 20px;
 	}
 	#taskList{
 		height:70vh;
