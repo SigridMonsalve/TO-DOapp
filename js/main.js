@@ -43,7 +43,13 @@ function tachar(esto){
 	}
 }
 function eliminarTask(esto){
-	var padre=esto.parentNode;
-	var section=document.getElementById('taskList');
-	section.removeChild(padre);
+	if (confirm('¿Desea eliminar esta tarea?')==true){
+		var padre=esto.parentNode;
+		var section=document.getElementById('taskList');
+		section.removeChild(padre);
+	}
+	else{
+		return
+	}
+	
 }
