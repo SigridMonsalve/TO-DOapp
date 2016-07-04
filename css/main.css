@@ -2,7 +2,6 @@ body{
 	background:#E8F2F0;
 }
 p{
-	width:85%;
 	word-break:break-all;
 	margin-left:10px;
 }
@@ -42,14 +41,12 @@ h1 span{
 	font-size:16px;
 }
 #addTask{
-	margin:10px 0px;
-	padding:20px;
-	height:20vh;
+	padding:20px 20px;
+	height:15vh;
 }
 #taskList{
 	border-top:1px solid #002620;
 	padding:5px;
-	height:70vh;
 	overflow-y:auto;
 }
 .tasks{
@@ -82,5 +79,19 @@ h1 span{
 	}
 	body{
 		font-size:16px;
+	}
+	p{
+		width:85%;
+	}
+}
+@media (max-width:767px){
+	#addTask{
+		height:30vh;
+	}
+	#taskList{
+		height:70vh;
+	}
+	p{
+		width:65vw;
 	}
 }
