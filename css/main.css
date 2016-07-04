@@ -44,7 +44,8 @@ h1 span{
 	font-size:16px;
 }
 #addTask{
-	padding:20px 20px;
+	margin-top:20px;
+	padding:0px 20px;
 	height:15vh;
 }
 #taskList{
@@ -68,6 +69,7 @@ h1 span{
 	#header,#addTask,#taskList{
 		max-width:80%;
 		margin:0 auto;
+		display:block;
 	}
 	textarea{
 		max-width:50%;
